@@ -28,7 +28,7 @@ module.exports = function(environment) {
     },
 
     APP: {
-      apiHost      : process.env.API_HOST || 'https://open-event-api-dev.herokuapp.com',
+      apiHost      : process.env.API_HOST || 'http://eventscity.herokuapp.com/',
       apiNamespace : process.env.API_NAMESPACE || 'v1'
     },
 
@@ -127,9 +127,9 @@ module.exports = function(environment) {
         'ws://eventyay.local:65520',
         'ws://localhost:49153',
         'https://maps.gstatic.com',
-        'https://*.eventyay.com',
-        'https://eventyay.com',
-        'https://open-event-api-dev.herokuapp.com',
+        'https://*.wonderful-agnesi-a15750.netlify.com',
+        https://wonderful-agnesi-a15750.netlify.com/',
+        'http://eventscity.herokuapp.com/',
         'www.google-analytics.com',
         'http://127.0.0.1:5000',
         ENV.sentry.hostname
@@ -139,8 +139,8 @@ module.exports = function(environment) {
         '\'unsafe-inline\'',
         'https://*.googleapis.com',
         'https://maps.gstatic.com',
-        'https://eventyay.com',
-        'https://*.eventyay.com',
+        'https:///wonderful-agnesi-a15750.netlify.com',
+        'https://*./wonderful-agnesi-a15750.netlify.com',
         'http://eventyay.local:65520',
         'http://localhost:49153',
         'www.google-analytics.com',
